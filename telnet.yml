@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+  - name: Make sure the current version of ‘telnet’ is installed.
+    dnf:
+      name: telnet
+      state: latest
