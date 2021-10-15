@@ -2,6 +2,5 @@
 - hosts: all
   tasks:
   - name: Print Hello World from vRA 
-    ansible.builtin.debug: 
-    msg: 
-      - "Lab message - Hello World from vRA"
+    debug: 
+      msg: "Lab message - Hello World from vRA"
